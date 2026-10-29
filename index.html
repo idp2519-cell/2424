@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Марта Верба | Фотографка</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Подключаем элегантные шрифты Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Шапка / Навігація -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">марта верба</a>
+            
+            <button class="menu-toggle" id="menuToggle" aria-label="Відкрити меню">
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="#about" class="nav-link">Про мене</a>
+                <a href="#portfolio" class="nav-link">Портфоліо</a>
+                <a href="#philosophy" class="nav-link">Підхід</a>
+                <a href="#services" class="nav-link">Послуги</a>
+                <a href="#contact" class="nav-link">Контакти</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Головна секція (Hero) -->
+    <section class="hero">
+        <div class="hero-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1600&q=80" alt="Марта Верба в полі" class="hero-img">
+        </div>
+        <div class="container hero-content">
+            <h1 class="hero-title">Зберігати те,<br>що відчуваєш.</h1>
+            <p class="hero-subtitle">Ближче до миті</p>
+            <p class="hero-description">
+                Мене цікавить не ідеальна картинка, а мить, у якій людина стає собою.<br>
+                Працюю на перетині портретної та документальної фотографії.
+            </p>
+        </div>
+    </section>
+
+    <!-- Секція "Історії у світлинах" (Портфоліо) -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Історії у світлинах</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-card" data-src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80" data-caption="Там, де тихо">
+                    <div class="img-box">
+                        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Там, де тихо">
+                    </div>
+                    <p class="card-caption">Там, де тихо</p>
+                </div>
+
+                <div class="portfolio-card" data-src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1200&q=80" data-caption="Між берегами">
+                    <div class="img-box">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80" alt="Між берегами">
+                    </div>
+                    <p class="card-caption">Між берегами</p>
+                </div>
+
+                <div class="portfolio-card" data-src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1200&q=80" data-caption="Крихкість речей">
+                    <div class="img-box">
+                        <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80" alt="Крихкість речей">
+                    </div>
+                    <p class="card-caption">Крихкість речей</p>
+                </div>
+
+                <div class="portfolio-card" data-src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80" data-caption="Бути собою">
+                    <div class="img-box">
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="Бути собою">
+                    </div>
+                    <p class="card-caption">Бути собою</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секція "Історія крупним планом" -->
+    <section class="feature-story">
+        <div class="container feature-container">
+            <div class="feature-text">
+                <span class="tag">Історія крупним планом</span>
+                <h2 class="feature-title">Дім — це не лише місце.</h2>
+                <p class="feature-desc">
+                    Це світло у вікні, знайомий дотик, тиша, яку не потрібно пояснювати. 
+                    Фотографічне дослідження пам'яті та приналежності.
+                </p>
+                <a href="#contact" class="btn-link">Дивитися серію «Дім» &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Філософія та підхід -->
+    <section class="philosophy" id="philosophy">
+        <div class="container">
+            <div class="philosophy-header">
+                <h2>Особистий підхід</h2>
+                <p class="subtitle-serif">Менше постановки. Більше присутності.</p>
+                <p class="philosophy-intro">
+                    Хороша фотографія починається до натискання кнопки. Для мене важливе не лише те, що залишиться на знімку, а й те, як ви почувалися поруч із камерою.
+                </p>
+            </div>
+
+            <div class="principles-grid">
+                <div class="principle-item">
+                    <h3>01. Спочатку довіра</h3>
+                    <p>Знайомимося, говоримо про важливе. Я слухаю, щоб відчути вашу історію, а не вигадати вас.</p>
+                </div>
+                <div class="principle-item">
+                    <h3>02. Природне світло</h3>
+                    <p>Не підганяю життя під кадр. Працюю з простором, денним світлом і духом місця, залишаючи простір для випадковості.</p>
+                </div>
+                <div class="principle-item">
+                    <h3>03. Час відчути</h3>
+                    <p>Ніякого заучування поз. Зйомка може бути прогулянкою, розмовою або просто тихим ранком удома.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Про мене -->
+    <section class="about" id="about">
+        <div class="container about-grid">
+            <div class="about-img-wrapper">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80" alt="Марта Верба фотограф">
+            </div>
+            <div class="about-text">
+                <h2>Привіт,<br>я Марта Верба.</h2>
+                <p class="about-subtitle">Фотографка. Спостерігачка. Колекціонерка тихих моментів.</p>
+                <p>
+                    Працюю з 2017 року над авторськими серіями про людей, внутрішній простір і відчуття дому.
+                    Люблю плівку за недосконалість, ранкове світло та щирість у кадрі.
+                </p>
+                <blockquote class="testimonial">
+                    «Я впервые побачила на фотографіях не те, як виглядаю, а те, яка я є. З Мартою можна просто бути».
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Послуги -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Ваша історія. Мій погляд.</h2>
+            <div class="services-list">
+                <div class="service-item">
+                    <h3>Особисті портрети</h3>
+                    <p>Простір і час, у якому ви можете бути собою без зайвого поспіху.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Історії для брендів</h3>
+                    <p>Візуальні історії для крафтових брендів, де важливі деталі, атмосфера та філософія.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Редакційні проєкти</h3>
+                    <p>Документальні та портретні репортажі для видань, культурних і соціальних ініціатив.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакти / Форма -->
+    <section class="contact" id="contact">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <h2>Що збережемо разом?</h2>
+                <p>Розкажіть декілька слів про себе, вашу ідею та бажані дати. Я відповім вам протягом двох робочих днів.</p>
+                <a href="mailto:hello@martaverba.photo" class="email-link">hello@martaverba.photo</a>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Ваше ім'я</label>
+                    <input type="text" id="name" required placeholder="Олена">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required placeholder="example@mail.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Ваша історія / Ідея для зйомки</label>
+                    <textarea id="message" rows="4" required placeholder="Напишіть декілька слів..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Надіслати повідомлення</button>
+                <div class="form-status" id="formStatus"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Модальне вікно для фотографій (Lightbox) -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" id="lightboxClose">&times;</span>
+        <img class="lightbox-content" id="lightboxImg" alt="Увеличенное фото">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+
+    <!-- Підвал (Footer) -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Марта Верба. Усі права захищено.</p>
+            <div class="socials">
+                <a href="#" target="_blank">Instagram</a>
+                <a href="#" target="_blank">Behance</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
